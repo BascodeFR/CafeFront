@@ -1,0 +1,22 @@
+{
+    "name": "bascodefr/cafe",
+    "description": "Front de la cafetière de Bascode",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bascodefr\\Cafe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cavernos",
+            "email": "louisdescavernes@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
